@@ -7,19 +7,19 @@ export default function Home() {
       <h1 className="text-4xl italic font-bold">O que deseja fazer?</h1>
       <div className="flex flex-col items-center gap-4">
         <Link href="/experienciaacademica">
-          <button className="bg-purple-500 text-white px-4 py-2 rounded">Experiência Acadêmica</button>
+          <button className="w-70 h-16 bg-purple-800 text-white px-4 py-2 rounded hover:bg-purple-950">Experiência Acadêmica</button>
         </Link>
         <Link href="/experienciaprofissional">
-          <button className="bg-purple-500 text-white px-4 py-2 rounded">Experiência Profissional</button>
+          <button className="w-70 h-16 bg-purple-800 text-white px-4 py-2 rounded hover:bg-purple-950">Experiência Profissional</button>
         </Link>
         <Link href="/projetosdesenvolvidos">
-          <button className="bg-purple-500 text-white px-4 py-2 rounded">Projetos Desenvolvidos</button>
+          <button className="w-70 h-16 bg-purple-800 text-white px-4 py-2 rounded hover:bg-purple-950">Projetos Desenvolvidos</button>
         </Link>
         <Link href="/jogo">
-          <button className="bg-purple-500 text-white px-4 py-2 rounded">Bulls n' Cows</button>
+          <button className="w-70 h-16 bg-purple-800 text-white px-4 py-2 rounded hover:bg-purple-950">Bulls n' Cows</button>
         </Link>
         <Link href="/sobre">
-          <button className="bg-purple-500 text-white px-4 py-2 rounded">Sobre o Projeto</button>
+          <button className="w-70 h-16 bg-purple-800 text-white px-4 py-2 rounded hover:bg-purple-950">Sobre o Projeto</button>
         </Link>
       </div>
     </main>
